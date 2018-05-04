@@ -266,7 +266,7 @@ class BtfxWss:
         
         :return: Queue()
         """
-        return self.queue_processor.account['Funding_trades']
+        return self.queue_processor.account['Funding Trades']
 
     @property
     def funding_trades_update(self):
