@@ -269,6 +269,14 @@ class BtfxWss:
         return self.queue_processor.account['Funding_trades']
 
     @property
+    def funding_trades_update(self):
+        """Return funding trades associated with the user account.
+
+        :return: Queue()
+        """
+        return self.queue_processor.account['Funding Trades Update']
+
+    @property
     def notifications(self):
         """Return notifications associated with the user account.
         
